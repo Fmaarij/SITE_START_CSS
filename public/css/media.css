@@ -1,5 +1,5 @@
 /* Minimum 768px */
-@media screen and (min-width:768px) {
+@media screen and (max-width:769px) {
 
     /* sec1 avatar */
     .sec1 img {
@@ -24,8 +24,9 @@
     }
 
     button {
-        border-radius: 50%;
+        border-radius: 0.5rem;
         font-size: 0.8rem;
+
     }
 
     /* footer */
@@ -38,7 +39,7 @@
 }
 
 /* Minimum 320px */
-@media screen and (min-width:320px) {
+@media screen and (max-width:321px) {
 
     /* Nav */
     .leftbut {
@@ -136,7 +137,7 @@
     button {
         margin-bottom: 1rem;
         padding: 1rem;
-        border-radius: 35%;
+        border-radius: 0.5rem;
         font-size: 1rem;
     }
 
