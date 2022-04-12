@@ -1,50 +1,173 @@
 /* Minimum 768px */
 @media screen and (min-width:768px) {
-    
+
     /* sec1 avatar */
     .sec1 img {
         width: 20%;
     }
+
     /* section 2 portofolio */
-.sec2 {
-    width: 80%;
-}
-/* about */
-.bothtxt {
-    width: 85%;
-    gap: 10rem;
-}
-/* section contact */
-.contact {
-    width: 80%;
-    padding: 2rem;
-}
-button {
-    border-radius: 50%;
-    font-size: 0.8rem;
-}
-/* footer */
-.Location,
-.arroundtw,
-.Aboutfl {
-    width: 30%;
-}
-     
+    .sec2 {
+        width: 80%;
+    }
+
+    /* about */
+    .bothtxt {
+        width: 85%;
+        gap: 10rem;
+    }
+
+    /* section contact */
+    .contact {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    button {
+        border-radius: 50%;
+        font-size: 0.8rem;
+    }
+
+    /* footer */
+    .Location,
+    .arroundtw,
+    .Aboutfl {
+        width: 30%;
+    }
+
 }
 
 /* Minimum 320px */
 @media screen and (min-width:320px) {
-/* Nav */
+
+    /* Nav */
     .leftbut {
         display: none;
     }
+
     .troisbut {
-       flex-direction: column;
+        flex-direction: column;
         padding: 0;
+        font-size: 1.8rem;
+    }
+
+    .troisbut>div {
+        padding: 0.8rem;
+        text-align: center;
+    }
+
+    /* sec1 avatar */
+    .sec1 {
+        padding: 0.5rem;
         font-size: 1.5rem;
     }
-    .troisbut>div {
-        padding:0.8rem;
+
+    .sec1 img {
+        width: auto;
+    }
+
+    /* section 2 portofolio */
+
+    .sec2 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .sec2 h1 {
+        margin: auto;
+        margin-bottom: 1.8rem;
+        font-size: 1.6rem;
+        letter-spacing: 6px;
+    }
+
+    .ssix_img {
+        flex-direction: row;
+    }
+
+    .sec2 img {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* about */
+    .About {
+        padding: 0rem;
+    }
+
+    .txtabout h1 {
+        letter-spacing: 20px;
+        margin-left: 0rem;
+        margin: 1.5rem;
+    }
+
+    .bothtxt {
+        flex-direction: column;
+        width: 80%;
         text-align: center;
+        gap: 0rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* section contact */
+    .contact h1 {
+        letter-spacing: 5px;
+        margin: 2rem;
+        margin-bottom: 0.8rem;
+        font-size: 1.8rem;
+    }
+
+    .contact {
+        width: 100%;
+        padding: 0rem;
+    }
+
+    hr {
+        width: 80%
+    }
+
+    .contact p {
+        font-size: 1.4rem;
+        opacity: 80%;
+    }
+
+    button {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 35%;
+        font-size: 1rem;
+    }
+
+    /* footer */
+    .trois_row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trois_row h2 {
+        font-size: 1.3rem;
+        padding-top: 0.5rem;
+    }
+
+    .trois_row h2+p {
+        font-size: 1rem;
+    }
+
+    .Aboutfl p {
+        font-size: 0.7rem;
+    }
+
+    .Location,
+    .arroundtw,
+    .Aboutfl {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .copyright {
+        padding: 1rem;
     }
 }
